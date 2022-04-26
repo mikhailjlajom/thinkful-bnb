@@ -129,7 +129,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 480px){
+@media all and (min-width: 481px){
 header {
   display: flex;
   justify-content: space-between;
@@ -157,11 +157,11 @@ label {
 .group {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .item-double {
   flex: 2;
-  margin-top: 7.5%;
 }
 
 .first-section {
@@ -177,10 +177,8 @@ label {
 .third-section{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.host-info{
-  /* padding-top: 10%; */
-  margin-top: 20%;
-}
+
 }
